@@ -1,3 +1,85 @@
+* {
+
+  font-family: arial, helvetica, sans-serif;
+}
+
 body {
-  background: rgb(80,80,80);
+  background: #ffffff;
+}
+
+ /* unvisited link */
+a:link {
+    color: red;
+}
+
+/* visited link */
+a:visited {
+    color: green;
+}
+
+/* mouse over link */
+a:hover {
+    color: orange;
+}
+
+/* selected link */
+a:active {
+    color: blue;
+}
+
+h1 {
+  font-size: xx-large;
+  color: rgb(80, 80, 80);
+  font-family: arial, helvetica, sans-serif;
+  text-align: center;
+  text-decoration: none;
+}
+
+h2 {
+  font-size: x-large;
+  color: rgb(80, 80, 80);
+  font-family: arial, helvetica, sans-serif;
+  text-align: center;
+}
+
+.logocontainer {
+  display: inline-block;
+  position: relative;
+  border-style: solid;
+  border-width: 1px;
+  border-color: rgb(224,224,224);
+  height: 220px;
+  width: 200px;
+  vertical-align: top;
+  margin: 25px;
+  font-family: arial, helvetica, sans-serif;
+}
+
+div.logocontainer > img {
+  display: block;
+  position: absolute;
+  top: 0;
+  left: 20px;
+  margin: auto;
+  height: 80%;
+  width: 80%;
+}
+
+div.logocontainer a {
+  display: block;
+  position: absolute;
+  border-style: solid;
+  border-width: 1px;
+  border-color: rgb(224,224,224);
+  font-family: inherit;
+  font-size: large;
+  height: 20px;
+  padding: 10px;
+  text-align: center;
+  color: rgb(256,256,256);
+  text-decoration: none;
+  bottom: 0;
+  left: 0;
+  width: 178px;
+  background-color: rgb(80,80,80)
 }
